@@ -2,40 +2,36 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
   background-color: white;
+  padding: 10px 15px;
   border-radius: 4px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .info {
   display: flex;
-  gap: 10px;
+  flex-direction: column;
 }
 
 .name {
-  font-weight: 500;
-  color: #2c3e50;
+  font-weight: bold;
+  margin-bottom: 3px;
+  color: black;
 }
 
 .number {
-  color: #7f8c8d;
+  color: #666;
 }
 
-.deleteButton {
-  padding: 6px 12px;
-  background-color: #e74c3c;
+.button {
+  background-color: #f44336;
   color: white;
   border: none;
+  padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.2s;
 }
 
-.deleteButton:hover {
-  background-color: #c0392b;
-}
-
-.deleteButton:active {
-  background-color: #a93226;
+.button:hover {
+  background-color: #d32f2f;
 }

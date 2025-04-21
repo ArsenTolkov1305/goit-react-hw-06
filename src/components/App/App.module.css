@@ -1,17 +1,12 @@
 .container {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
 }
 
 .title {
-  text-align: center;
-  color: #2c3e50;
-  margin-bottom: 20px;
-}
-
-.subtitle {
-  color: #34495e;
-  margin-top: 30px;
-  margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
 }
